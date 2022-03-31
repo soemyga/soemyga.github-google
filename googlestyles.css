@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Roboto:wght@100&display=swap');
+
+header{
+    padding-bottom: 80px;
+}
+#gmail {
+    display: inline;
+    color: white;
+    text-decoration-color: white;
+    margin-left: 990px;
+}
+
+#perfil{
+    display: inline;
+    color: white;
+    text-decoration-color: white;
+       margin-left: auto;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#logo {
+    display: block;
+    margin: auto;
+}
+
+#barraContainer{
+    display: flex;
+    justify-content: center;
+
+}
+#barra{  
+    background-color: transparent;
+    height: 35px;
+    width: 450px;
+    border-radius: 25px;
+        
+}
+#buttonContainer button{
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+
+#buttonContainer button:hover{
+    box-shadow: 0 1px 3px rgb(23 23 23 / 24%);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+.submx{
+    padding: 15px 30px;
+    border-bottom: 1px solid #212327;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+#enlaces {
+    display: block;
+    padding-top: 30px;
+    color: #9aa0a6;
+    justify-content: center;
+}
+
+#link {
+    display: flex;
+    justify-content: space-evenly;
+    white-space: pre-line;
+}
