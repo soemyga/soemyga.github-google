@@ -27,7 +27,7 @@ body{
     margin: auto;
 }
 
-#barraContainer{
+#input-search{
     display: flex;
     justify-content: center;
 
@@ -84,8 +84,9 @@ body{
     justify-content: center;
 }
 
-#link {
+#footer-link {
     display: flex;
     justify-content: space-evenly;
     white-space: pre-line;
+    
 }
